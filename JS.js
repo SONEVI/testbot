@@ -21,7 +21,7 @@ btn.addEventListener('click', function(){
 
 
 let btnED = document.getElementById("btnED")
-btnEd.addEventListener('click', function(){
+btnED.addEventListener('click', function(){
 	if (tg.MainButton.isActive){
 		tg.MainButton.setParams({"red": "#B22222"});
 		tg.MainButton.disable();

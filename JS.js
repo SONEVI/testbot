@@ -23,12 +23,12 @@ btn.addEventListener('click', function(){
 let btnED = document.getElementById("btnED")
 btnED.addEventListener('click', function(){
 	if (tg.MainButton.isActive){
-		tg.MainButton.setParams({"color": "red"});
+		tg.MainButton.setParams({"color": "#B22222"});
 		tg.MainButton.disable();
 		console.log("disable")
 	}
 	else{
-		tg.MainButton.setParams({"color": "yellow"});
+		tg.MainButton.setParams({"color": "#F0E68C"});
 		tg.MainButton.enable();
 		console.log("enable");
 	}

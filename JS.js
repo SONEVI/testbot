@@ -23,11 +23,11 @@ btn.addEventListener('click', function(){
 let btnED = document.getElementById("btnED")
 btnED.addEventListener('click', function(){
 	if (tg.MainButton.isActive){
-		tg.MainButton.setParams({"red": "#B22222"});
+		tg.MainButton.setParams({"color": "red"});
 		tg.MainButton.disable();
 	}
 	else{
-		tg.MainButton.setParams({"yellow": "#FFD700"});
+		tg.MainButton.setParams({"color": "yellow"});
 		tg.MainButton.enable();
 	}
 });

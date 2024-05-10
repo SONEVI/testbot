@@ -25,10 +25,12 @@ btnED.addEventListener('click', function(){
 	if (tg.MainButton.isActive){
 		tg.MainButton.setParams({"color": "red"});
 		tg.MainButton.disable();
+		console.log("disable")
 	}
 	else{
 		tg.MainButton.setParams({"color": "yellow"});
 		tg.MainButton.enable();
+		console.log("enable");
 	}
 });
 
